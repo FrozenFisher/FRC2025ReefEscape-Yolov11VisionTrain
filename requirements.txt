@@ -1,0 +1,24 @@
+# TensorFlow
+tensorflow-macos<=2.19.0
+tensorflow-metal<=2.19.0
+tf_keras<=2.19.0
+protobuf>=5
+
+# Ultralytics YOLOv11
+ultralytics>=8.0.0
+
+# ONNX / ONNX-TensorFlow 转换
+onnx>=1.12.0
+onnxruntime
+onnxslim>=0.1.71
+onnx2tf>=1.26.3
+onnx_graphsurgeon>=0.3.26
+sng4onnx>=1.0.1
+
+# OpenVINO / AI Edge Runtime
+ai-edge-litert>=1.2.0,<1.4.0
+
+# 其他常用
+numpy<2
+opencv-python
+tensorflowjs
